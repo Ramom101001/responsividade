@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="topo">
+        <div class="topo__linha">
+            <h1>Food, LLC</h1>
+            <div class="menu" onClick="opemMenu()" >
+                <img src="./Imagens/menu.png" alt="Menu">
+            </div>            
+        </div>
+        <div class="menu__conteiner" id="menu" >
+            <ul>
+                <li><a href="" >Chicken</a></li>
+                <li><a href="">Beef</a></li>
+                <li><a href="">Sushi</a></li>
+            </ul>
+
+        </div>
+    </header>
+    
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="item">
+                <h4>Chicken</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, in molestiae illo excepturi officia
+                    harum veniam obcaecati Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium et, distinctio
+                    reprehenderit sapiente iure aperiam iste ea, deleniti nemo placeat eos modi nulla nihil iusto rem quisquam,
+                    incidunt maiores ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, rerum eveniet consequuntur 
+                    quae inventore itaque, aperiam, consectetur distinctio eius earum voluptatum assumenda! Molestias dolore
+                    consectetur tempore a corporis sequi cumque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere 
+                    voluptatum illo laudantium voluptatibus quis facilis voluptatum itaque, maiores accusamus autem temporibus magni 
+                    sapiente provident culpa. Sunt fugiat delectus ducimus architecto ad itaque, suscipit cumque eligendi.
+                    blanditiis nisi vitae! Corrupti tenetur eaque libero obcaecati?
+                </p>
+
+            </div>
+        </div>
+        <script>
+            function opemMenu () {
+
+                var menu = document.getElementById("menu");
+                menu.classList.toggle("open");
+                }
+        </script>
+</body>
+</html>
